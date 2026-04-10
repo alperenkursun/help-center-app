@@ -1,0 +1,140 @@
+{
+  "categories": [
+    {
+      "id": "yayinci-ekosistemi",
+      "title": "Yayıncı Ekosistemi",
+      "icon": "radio",
+      "iconColor": "text-orange-500",
+      "articles": [
+        { "id": "art-1", "title": "itemavm.com güvenilir mi?", "slug": "itemavm-guvenilir-mi" },
+        { "id": "art-2", "title": "Size Nasıl Ulaşabilirim?", "slug": "size-nasil-ulasabilirim" },
+        { "id": "art-3", "title": "İlan Satışlarını Nasıl Video Kaydına Alabilirim?", "slug": "ilan-satislarini-video" },
+        { "id": "art-4", "title": "itemAVM Üyeliğim için Mail ve Telefon Onayı Nasıl Yapabilirim?", "slug": "mail-ve-telefon-onayi" },
+        { "id": "art-5", "title": "Stoklu İlan Nasıl Eklenir?", "slug": "stoklu-ilan-nasil-eklenir" },
+        { "id": "art-6", "title": "Manuel ve Stoktan Otomatik Teslimat Nedir?", "slug": "otomatik-teslimat" }
+      ]
+    },
+    {
+      "id": "odeme-yontemleri",
+      "title": "Ödeme Yöntemleri",
+      "icon": "shield-check",
+      "iconColor": "text-emerald-500",
+      "articles": [
+        { "id": "art-7", "title": "Hangi ödeme yöntemlerini kullanabilirim?", "slug": "hangi-odeme-yontemleri" },
+        { "id": "art-8", "title": "Komisyon oranları nelerdir?", "slug": "komisyon-oranlari" }
+      ]
+    },
+    {
+      "id": "kapak-fotografi",
+      "title": "Kapak Fotoğrafı Değiştirme",
+      "icon": "play-circle",
+      "iconColor": "text-[#A3E635]",
+      "articles": [
+        { "id": "art-9", "title": "Profil ve kapak fotoğrafı nasıl güncellenir?", "slug": "kapak-nasil-guncellenir" }
+      ]
+    },
+    {
+      "id": "genel-konular",
+      "title": "Genel Konular",
+      "icon": "x-circle",
+      "iconColor": "text-red-500",
+      "articles": [
+        { "id": "art-10", "title": "Şifremi unuttum ne yapmalıyım?", "slug": "sifremi-unuttum" },
+        { "id": "art-11", "title": "Üyelik iptali nasıl yapılır?", "slug": "uyelik-iptali" }
+      ]
+    },
+    {
+      "id": "siparis-islemleri",
+      "title": "Sipariş İşlemleri",
+      "icon": "truck",
+      "iconColor": "text-blue-500",
+      "articles": [
+        { "id": "art-12", "title": "Siparişimi nasıl takip edebilirim?", "slug": "siparis-takibi" },
+        { "id": "art-13", "title": "Sipariş iptali nasıl yapılır?", "slug": "siparis-iptali" },
+        { "id": "art-14", "title": "Siparişimde değişiklik yapabilir miyim?", "slug": "siparis-degisikligi" }
+      ]
+    },
+    {
+      "id": "iade-degisim",
+      "title": "İade ve Değişim",
+      "icon": "refresh",
+      "iconColor": "text-purple-500",
+      "articles": [
+        { "id": "art-15", "title": "İade politikası nedir?", "slug": "iade-politikasi" },
+        { "id": "art-16", "title": "İade süreci nasıl işler?", "slug": "iade-sureci" },
+        { "id": "art-17", "title": "Değişim için ne yapmalıyım?", "slug": "degisim-nasil" },
+        { "id": "art-18", "title": "İade ücreti kim tarafından karşılanır?", "slug": "iade-ucreti" }
+      ]
+    },
+    {
+      "id": "kargo-teslimat",
+      "title": "Kargo ve Teslimat",
+      "icon": "package",
+      "iconColor": "text-yellow-600",
+      "articles": [
+        { "id": "art-19", "title": "Hangi kargo firmaları ile çalışıyorsunuz?", "slug": "kargo-firmalari" },
+        { "id": "art-20", "title": "Kargo ücreti ne kadar?", "slug": "kargo-ucreti" },
+        { "id": "art-21", "title": "Teslimat süresi ne kadardır?", "slug": "teslimat-suresi" },
+        { "id": "art-22", "title": "Hasarlı ürün teslim aldım ne yapmalıyım?", "slug": "hasarli-urun" }
+      ]
+    },
+    {
+      "id": "fatura-bilgileri",
+      "title": "Fatura Bilgileri",
+      "icon": "file-text",
+      "iconColor": "text-indigo-500",
+      "articles": [
+        { "id": "art-23", "title": "Faturamı nasıl görebilirim?", "slug": "fatura-goruntuleme" },
+        { "id": "art-24", "title": "Fatura bilgilerimi nasıl güncellerim?", "slug": "fatura-guncelleme" },
+        { "id": "art-25", "title": "E-fatura nedir?", "slug": "e-fatura" }
+      ]
+    },
+    {
+      "id": "guvenlik-gizlilik",
+      "title": "Güvenlik ve Gizlilik",
+      "icon": "lock",
+      "iconColor": "text-gray-700",
+      "articles": [
+        { "id": "art-26", "title": "Kişisel verilerim güvende mi?", "slug": "veri-guvenligi" },
+        { "id": "art-27", "title": "Hesabımı nasıl daha güvenli hale getirebilirim?", "slug": "hesap-guvenligi" },
+        { "id": "art-28", "title": "Şüpheli bir aktivite gördüm ne yapmalıyım?", "slug": "suspicious-activity" },
+        { "id": "art-29", "title": "Çerez politikası nedir?", "slug": "cerez-politikasi" }
+      ]
+    },
+    {
+      "id": "mobil-uygulama",
+      "title": "Mobil Uygulama",
+      "icon": "smartphone",
+      "iconColor": "text-green-600",
+      "articles": [
+        { "id": "art-30", "title": "Mobil uygulamayı nereden indirebilirim?", "slug": "mobil-indirme" },
+        { "id": "art-31", "title": "Uygulamada çıkan hatalar için ne yapmalıyım?", "slug": "uygulama-hatasi" },
+        { "id": "art-32", "title": "Mobil uygulama ile web sitesi arasındaki farklar nelerdir?", "slug": "mobil-web-farklari" }
+      ]
+    },
+    {
+      "id": "hediye-ceki-kuponlar",
+      "title": "Hediye Çeki ve Kuponlar",
+      "icon": "gift",
+      "iconColor": "text-pink-500",
+      "articles": [
+        { "id": "art-33", "title": "Hediye çekimi nasıl kullanabilirim?", "slug": "hediye-ceki-kullanimi" },
+        { "id": "art-34", "title": "Kuponlarım nerede görünür?", "slug": "kuponlarim" },
+        { "id": "art-35", "title": "Kupon birleştirme yapabilir miyim?", "slug": "kupon-birlestirme" },
+        { "id": "art-36", "title": "Hediye çeki bakiye sorgulama", "slug": "hediye-ceki-bakiye" }
+      ]
+    },
+    {
+      "id": "satin-alma-rehberi",
+      "title": "Satın Alma Rehberi",
+      "icon": "shopping-cart",
+      "iconColor": "text-cyan-500",
+      "articles": [
+        { "id": "art-37", "title": "Alışveriş nasıl yapılır?", "slug": "alisveris-nasil" },
+        { "id": "art-38", "title": "Ürün puanları ve yorumları güvenilir mi?", "slug": "urun-yorumlari" },
+        { "id": "art-39", "title": "Fiyat değişikliklerinden nasıl haberdar olabilirim?", "slug": "fiyat-takibi" },
+        { "id": "art-40", "title": "Favori listeme nasıl ürün eklerim?", "slug": "favori-liste" }
+      ]
+    }
+  ]
+}
