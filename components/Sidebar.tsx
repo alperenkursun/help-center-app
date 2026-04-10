@@ -32,7 +32,7 @@ export default function Sidebar() {
   };
 
   return (
-    <aside className="w-100 pr-5 border-r border-border-dark shrink-0 flex flex-col h-[calc(100vh-160px)] max-h-200">
+    <aside className="w-100 pr-5 border-r border-border-dark shrink-0 flex flex-col">
       
       <div className="mb-5">
         <SearchInput />
