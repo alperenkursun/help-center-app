@@ -39,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className={`${gilroy.variable}`}>
+    <html lang="tr" className={`${gilroy.variable}`} suppressHydrationWarning>
       <body className="font-sans antialiased min-h-screen">
         {children}
       </body>
