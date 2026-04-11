@@ -25,32 +25,45 @@ const getCategoryIcon = (iconName: string, iconColor: string) => {
 };
 
 export default function Sidebar({ categories, activeSlug, searchQuery, onSearchChange, onArticleClick }: SidebarProps) {
-  const [openCategoryId, setOpenCategoryId] = useState<string>("");
+  const [manualOpenId, setManualOpenId] = useState<string>("");
 
   return (
     <aside className="w-100 pr-5 border-r border-border-dark shrink-0 flex flex-col">
       <div className="mb-5">
         <SearchInput 
           value={searchQuery} 
-          onChange={(e) => onSearchChange(e.target.value)} 
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) => onSearchChange(e.target.value)} 
         />
       </div>
       <div className="flex-1 overflow-y-auto space-y-4 custom-scrollbar">
-        {categories.map((category) => (
-          <CategoryCollapse
-            key={category.id}
-            title={category.title}
-            icon={getCategoryIcon(category.icon, category.iconColor)}
-            articles={category.articles}
-            isOpen={openCategoryId === category.id}
-            onToggle={() => setOpenCategoryId(openCategoryId === category.id ? "" : category.id)}
-            activeArticleId={category.articles.find(a => a.slug === activeSlug)?.id}
-            onArticleClick={(id) => {
-              const art = category.articles.find(a => a.id === id);
-              if (art) onArticleClick(art.slug);
-            }}
-          />
-        ))}
+        {categories.map((category) => {
+          
+          let isCategoryOpen = false;
+
+          if (searchQuery.length > 0) {
+            isCategoryOpen = true;
+          } else if (manualOpenId) {
+            isCategoryOpen = manualOpenId === category.id;
+          } else {
+            isCategoryOpen = category.articles.some(art => art.slug === activeSlug);
+          }
+
+          return (
+            <CategoryCollapse
+              key={category.id}
+              title={category.title}
+              icon={getCategoryIcon(category.icon, category.iconColor)}
+              articles={category.articles}
+              isOpen={isCategoryOpen}
+              onToggle={() => setManualOpenId(manualOpenId === category.id ? "CLOSED_BY_USER" : category.id)}
+              activeArticleId={category.articles.find(a => a.slug === activeSlug)?.id}
+              onArticleClick={(id) => {
+                const art = category.articles.find(a => a.id === id);
+                if (art) onArticleClick(art.slug);
+              }}
+            />
+          );
+        })}
       </div>
     </aside>
   );
