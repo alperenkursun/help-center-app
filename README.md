@@ -1,10 +1,10 @@
 # help-center-app
 
-Next.js 16+ • Tailwind CSS v4 • TypeScript • App Router
+Next.js 16+ • Tailwind CSS v4 • TypeScript • App Router App
 
 ---
 
-[See The Project]()
+[See The Project](https://help-center-app-rouge.vercel.app/yardim-merkezi)
 
 ---
 
