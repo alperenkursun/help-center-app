@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import MainContent from "@/components/MainContent";
+import ArticleDetail from "@/components/ArticleDetail";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
 
         <div className="flex p-5">
           <Sidebar />
-          <MainContent />
+          {/* <MainContent /> */}
+          <ArticleDetail />
         </div>
         
       </div>

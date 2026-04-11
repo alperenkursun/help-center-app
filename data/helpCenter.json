@@ -135,6 +135,28 @@
         { "id": "art-39", "title": "Fiyat değişikliklerinden nasıl haberdar olabilirim?", "slug": "fiyat-takibi" },
         { "id": "art-40", "title": "Favori listeme nasıl ürün eklerim?", "slug": "favori-liste" }
       ]
+    },
+    {
+      "id": "kampanyalar",
+      "title": "Kampanyalar",
+      "icon": "percent",
+      "iconColor": "text-rose-500",
+      "articles": [
+        { "id": "art-41", "title": "Aktif kampanyalar nelerdir?", "slug": "aktif-kampanyalar" },
+        { "id": "art-42", "title": "Kampanyalardan nasıl yararlanırım?", "slug": "kampanyalardan-yararlanma" },
+        { "id": "art-43", "title": "Kampanya ve indirim kodları", "slug": "indirim-kodlari" }
+      ]
+    },
+    {
+      "id": "is-birlikleri",
+      "title": "İş Birlikleri",
+      "icon": "handshake",
+      "iconColor": "text-indigo-400",
+      "articles": [
+        { "id": "art-44", "title": "Satıcı olmak istiyorum", "slug": "satici-olmak" },
+        { "id": "art-45", "title": "İş birliği başvurusu nasıl yapılır?", "slug": "is-birligi-basvurusu" },
+        { "id": "art-46", "title": "Affiliate program nedir?", "slug": "affiliate-program" }
+      ]
     }
   ]
 }
