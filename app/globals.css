@@ -37,3 +37,12 @@ body {
   background: var(--color-border-dark);
   border-radius: 10px;
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-page-entry {
+  animation: fadeIn 0.5s ease-out forwards;
+}

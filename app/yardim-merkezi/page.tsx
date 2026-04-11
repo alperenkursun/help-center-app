@@ -82,18 +82,20 @@ export default function Home() {
             onArticleClick={navigateToArticle}
           />
 
-          {activeArticle ? (
-            <ArticleDetail 
-              article={activeArticle as Article} 
-              onBack={navigateHome} 
-            />
-          ) : (
-            <MainContent 
-              categories={filteredData as Category[]} 
-              onArticleClick={navigateToArticle}
-              isLoading={isLoading}
-            />
-          )}
+          <div className="flex-1 contents" key={activeSlug || 'home'}>
+            {activeArticle ? (
+              <ArticleDetail 
+                article={activeArticle as Article} 
+                onBack={navigateHome} 
+              />
+            ) : (
+              <MainContent 
+                categories={filteredData as Category[]} 
+                onArticleClick={navigateToArticle}
+                isLoading={isLoading}
+              />
+            )}
+          </div>
         </div>
       </div>
     </main>
