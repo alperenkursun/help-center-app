@@ -11,6 +11,21 @@ import { Category, Article } from "@/types";
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeSlug, setActiveSlug] = useState<string>("");
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleSearchChange = (val: string) => {
+    setIsLoading(true);
+    setSearchQuery(val);
+  };
+
+  useEffect(() => {
+    if (isLoading) {
+      const timer = setTimeout(() => {
+        setIsLoading(false);
+      }, 800);
+      return () => clearTimeout(timer);
+    }
+  }, [isLoading]);
 
   useEffect(() => {
     const handleHashChange = () => {
@@ -63,7 +78,7 @@ export default function Home() {
             categories={filteredData as Category[]} 
             activeSlug={activeSlug}
             searchQuery={searchQuery}
-            onSearchChange={setSearchQuery}
+            onSearchChange={handleSearchChange}
             onArticleClick={navigateToArticle}
           />
 
@@ -76,6 +91,7 @@ export default function Home() {
             <MainContent 
               categories={filteredData as Category[]} 
               onArticleClick={navigateToArticle}
+              isLoading={isLoading}
             />
           )}
         </div>
