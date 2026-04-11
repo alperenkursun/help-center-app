@@ -6,12 +6,39 @@
       "icon": "radio",
       "iconColor": "text-orange-500",
       "articles": [
-        { "id": "art-1", "title": "itemavm.com güvenilir mi?", "slug": "itemavm-guvenilir-mi" },
-        { "id": "art-2", "title": "Size Nasıl Ulaşabilirim?", "slug": "size-nasil-ulasabilirim" },
-        { "id": "art-3", "title": "İlan Satışlarını Nasıl Video Kaydına Alabilirim?", "slug": "ilan-satislarini-video" },
-        { "id": "art-4", "title": "itemAVM Üyeliğim için Mail ve Telefon Onayı Nasıl Yapabilirim?", "slug": "mail-ve-telefon-onayi" },
-        { "id": "art-5", "title": "Stoklu İlan Nasıl Eklenir?", "slug": "stoklu-ilan-nasil-eklenir" },
-        { "id": "art-6", "title": "Manuel ve Stoktan Otomatik Teslimat Nedir?", "slug": "otomatik-teslimat" }
+        {
+          "id": "1",
+          "slug": "yayinci-ekosistemi-nedir",
+          "title": "Yayıncı Ekosistemi Nedir?",
+          "summary": "itemAVM yayıncı ekosistemi ile dijital ürünlerinizi nasıl daha geniş kitlelere ulaştırabileceğinizi öğrenin.",
+          "content": "Detaylı içerik buraya gelecek. Manuel ve stoktan otomatik teslimat farkları, yayıncılar için avantajlar ve gelir modelleri hakkında kapsamlı bilgi.",
+          "views": "10.998",
+          "likes": 205,
+          "dislikes": 20,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "2",
+          "slug": "itemavm-guvenilir-mi",
+          "title": "itemavm.com güvenilir mi?",
+          "summary": "itemAVM'nin güvenlik önlemleri, lisansları ve müşteri memnuniyeti politikaları hakkında bilgi.",
+          "content": "SSL sertifikası, 3D Secure ödeme altyapısı, KVKK uyumluluğu ve kullanıcı yorumları ile güvenilir bir alışveriş deneyimi.",
+          "views": "15.234",
+          "likes": 312,
+          "dislikes": 8,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "3",
+          "slug": "stoklu-ilan-nasil-eklenir",
+          "title": "Stoklu İlan Nasıl Eklenir?",
+          "summary": "Adım adım stoklu ilan ekleme rehberi, ürün görselleri ve açıklamaları nasıl optimize edilir?",
+          "content": "Excel ile toplu yükleme, tekil ürün ekleme, stok takibi ve otomatik stok güncelleme yöntemleri.",
+          "views": "7.456",
+          "likes": 178,
+          "dislikes": 15,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
@@ -20,8 +47,28 @@
       "icon": "shield-check",
       "iconColor": "text-emerald-500",
       "articles": [
-        { "id": "art-7", "title": "Hangi ödeme yöntemlerini kullanabilirim?", "slug": "hangi-odeme-yontemleri" },
-        { "id": "art-8", "title": "Komisyon oranları nelerdir?", "slug": "komisyon-oranlari" }
+        {
+          "id": "4",
+          "slug": "odeme-yontemleri-nelerdir",
+          "title": "Hangi Ödeme Yöntemlerini Kullanabilirim?",
+          "summary": "Kredi kartı, banka kartı, EFT, havale ve dijital cüzdan seçenekleri hakkında detaylı bilgi.",
+          "content": "Visa, Mastercard, Troy, American Express, Papara, İninal ve diğer tüm ödeme seçenekleri. Taksit imkanları ve güvenli ödeme süreci.",
+          "views": "8.120",
+          "likes": 450,
+          "dislikes": 12,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "5",
+          "slug": "komisyon-oranlari",
+          "title": "Komisyon Oranları Nelerdir?",
+          "summary": "Satıcılar için komisyon oranları, kategori bazlı farklılıklar ve ek hizmet ücretleri.",
+          "content": "Her kategori için geçerli komisyon oranları, özel kampanya dönemlerindeki indirimli komisyonlar ve kesinti detayları.",
+          "views": "6.543",
+          "likes": 234,
+          "dislikes": 28,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
@@ -30,7 +77,17 @@
       "icon": "play-circle",
       "iconColor": "text-[#A3E635]",
       "articles": [
-        { "id": "art-9", "title": "Profil ve kapak fotoğrafı nasıl güncellenir?", "slug": "kapak-nasil-guncellenir" }
+        {
+          "id": "6",
+          "slug": "kapak-fotografi-degistirme",
+          "title": "Profil ve Kapak Fotoğrafı Nasıl Güncellenir?",
+          "summary": "Profil resmi ve kapak fotoğrafınızı adım adım nasıl değiştireceğinizi öğrenin.",
+          "content": "Profil ve kapak fotoğraflarınızı nasıl güncelleyeceğinize dair rehber. Önerilen boyutlar, dosya formatları ve görsel optimizasyon ipuçları.",
+          "views": "5.432",
+          "likes": 120,
+          "dislikes": 5,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
@@ -39,8 +96,28 @@
       "icon": "x-circle",
       "iconColor": "text-red-500",
       "articles": [
-        { "id": "art-10", "title": "Şifremi unuttum ne yapmalıyım?", "slug": "sifremi-unuttum" },
-        { "id": "art-11", "title": "Üyelik iptali nasıl yapılır?", "slug": "uyelik-iptali" }
+        {
+          "id": "7",
+          "slug": "sifremi-unuttum",
+          "title": "Şifremi Unuttum Ne Yapmalıyım?",
+          "summary": "Şifre sıfırlama adımları, güvenli şifre oluşturma ipuçları ve hesap kurtarma süreci.",
+          "content": "Adım adım şifre yenileme kılavuzu. E-posta veya SMS ile şifre sıfırlama, güvenlik soruları ve müşteri desteğinden yardım alma.",
+          "views": "12.345",
+          "likes": 567,
+          "dislikes": 23,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "8",
+          "slug": "uyelik-iptali",
+          "title": "Üyelik İptali Nasıl Yapılır?",
+          "summary": "Hesabınızı kalıcı olarak kapatmadan önce bilmeniz gerekenler ve iptal adımları.",
+          "content": "Üyelik iptal süreci, hesap silme adımları, verilerinizin durumu ve geri dönüş imkanları hakkında detaylı bilgi.",
+          "views": "4.321",
+          "likes": 89,
+          "dislikes": 34,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
@@ -49,9 +126,28 @@
       "icon": "truck",
       "iconColor": "text-blue-500",
       "articles": [
-        { "id": "art-12", "title": "Siparişimi nasıl takip edebilirim?", "slug": "siparis-takibi" },
-        { "id": "art-13", "title": "Sipariş iptali nasıl yapılır?", "slug": "siparis-iptali" },
-        { "id": "art-14", "title": "Siparişimde değişiklik yapabilir miyim?", "slug": "siparis-degisikligi" }
+        {
+          "id": "9",
+          "slug": "siparis-takibi",
+          "title": "Siparişimi Nasıl Takip Edebilirim?",
+          "summary": "Sipariş durumu sorgulama, kargo takibi ve bildirim ayarları hakkında bilgi.",
+          "content": "Hesabım > Siparişlerim bölümünden sipariş durumunuzu görüntüleyin. Kargo takip numarası ile kargo firmasının sitesinden detaylı takip.",
+          "views": "9.876",
+          "likes": 432,
+          "dislikes": 18,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "10",
+          "slug": "siparis-iptali",
+          "title": "Sipariş İptali Nasıl Yapılır?",
+          "summary": "Sipariş iptal koşulları, iptal süresi ve iade süreci hakkında detaylar.",
+          "content": "Siparişiniz kargoya verilmeden önce iptal edilebilir. İptal adımları, kargoya verilmiş siparişlerde izlenecek yol ve para iadesi süreci.",
+          "views": "7.654",
+          "likes": 298,
+          "dislikes": 42,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
@@ -60,10 +156,28 @@
       "icon": "refresh",
       "iconColor": "text-purple-500",
       "articles": [
-        { "id": "art-15", "title": "İade politikası nedir?", "slug": "iade-politikasi" },
-        { "id": "art-16", "title": "İade süreci nasıl işler?", "slug": "iade-sureci" },
-        { "id": "art-17", "title": "Değişim için ne yapmalıyım?", "slug": "degisim-nasil" },
-        { "id": "art-18", "title": "İade ücreti kim tarafından karşılanır?", "slug": "iade-ucreti" }
+        {
+          "id": "11",
+          "slug": "iade-politikasi",
+          "title": "İade Politikası Nedir?",
+          "summary": "14 gün cayma hakkı, iade koşulları ve iade süreci hakkında bilgi.",
+          "content": "Tüketici kanunlarına göre 14 gün cayma hakkı. Hangi ürünler iade edilemez, iade formu nasıl doldurulur ve iade kargo süreci.",
+          "views": "11.234",
+          "likes": 543,
+          "dislikes": 31,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "12",
+          "slug": "iade-sureci",
+          "title": "İade Süreci Nasıl İşler?",
+          "summary": "Adım adım iade süreci, iade kargo takibi ve para iadesi zamanlaması.",
+          "content": "İade talebi oluşturma, onay süreci, kargo gönderimi, ürün incelemesi ve para iadesi aşamaları detaylı anlatım.",
+          "views": "8.765",
+          "likes": 367,
+          "dislikes": 27,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
@@ -72,10 +186,28 @@
       "icon": "package",
       "iconColor": "text-yellow-600",
       "articles": [
-        { "id": "art-19", "title": "Hangi kargo firmaları ile çalışıyorsunuz?", "slug": "kargo-firmalari" },
-        { "id": "art-20", "title": "Kargo ücreti ne kadar?", "slug": "kargo-ucreti" },
-        { "id": "art-21", "title": "Teslimat süresi ne kadardır?", "slug": "teslimat-suresi" },
-        { "id": "art-22", "title": "Hasarlı ürün teslim aldım ne yapmalıyım?", "slug": "hasarli-urun" }
+        {
+          "id": "13",
+          "slug": "kargo-firmalari",
+          "title": "Hangi Kargo Firmaları İle Çalışıyorsunuz?",
+          "summary": "Anlaşmalı kargo firmaları, avantajlı gönderi fiyatları ve teslimat ağı bilgisi.",
+          "content": "Yurtiçi Kargo, PTT Kargo, MNG Kargo, Aras Kargo, Sürat Kargo ile anlaşmalıyız. Tüm Türkiye'de şube ağı ve kapıda teslimat seçenekleri.",
+          "views": "6.543",
+          "likes": 234,
+          "dislikes": 16,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "14",
+          "slug": "kargo-ucreti",
+          "title": "Kargo Ücreti Ne Kadar?",
+          "summary": "Kargo ücreti hesaplama, ücretsiz kargo limiti ve ek hizmet ücretleri.",
+          "content": "Standart kargo ücreti 49.90 TL, 500 TL ve üzeri alışverişlerde kargo ücretsiz. Aynı gün kargo ve ekspres teslimat seçenekleri.",
+          "views": "5.678",
+          "likes": 189,
+          "dislikes": 45,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
@@ -84,9 +216,28 @@
       "icon": "file-text",
       "iconColor": "text-indigo-500",
       "articles": [
-        { "id": "art-23", "title": "Faturamı nasıl görebilirim?", "slug": "fatura-goruntuleme" },
-        { "id": "art-24", "title": "Fatura bilgilerimi nasıl güncellerim?", "slug": "fatura-guncelleme" },
-        { "id": "art-25", "title": "E-fatura nedir?", "slug": "e-fatura" }
+        {
+          "id": "15",
+          "slug": "fatura-goruntuleme",
+          "title": "Faturamı Nasıl Görebilirim?",
+          "summary": "Elektronik fatura görüntüleme, indirme ve saklama yöntemleri.",
+          "content": "Hesabım > Siparişlerim bölümünden faturalarınıza ulaşabilir, PDF olarak indirebilir veya e-posta olarak gönderebilirsiniz.",
+          "views": "4.987",
+          "likes": 156,
+          "dislikes": 9,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "16",
+          "slug": "e-fatura-nedir",
+          "title": "E-Fatura Nedir?",
+          "summary": "E-fatura sistemi, avantajları ve e-fatura kaydı nasıl yapılır?",
+          "content": "E-fatura, kağıt fatura yerine geçen yasal belgedir. Vergi avantajları, çevre dostu olması ve kolay saklama imkanı sunar.",
+          "views": "3.456",
+          "likes": 98,
+          "dislikes": 12,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
@@ -95,10 +246,28 @@
       "icon": "lock",
       "iconColor": "text-gray-700",
       "articles": [
-        { "id": "art-26", "title": "Kişisel verilerim güvende mi?", "slug": "veri-guvenligi" },
-        { "id": "art-27", "title": "Hesabımı nasıl daha güvenli hale getirebilirim?", "slug": "hesap-guvenligi" },
-        { "id": "art-28", "title": "Şüpheli bir aktivite gördüm ne yapmalıyım?", "slug": "suspicious-activity" },
-        { "id": "art-29", "title": "Çerez politikası nedir?", "slug": "cerez-politikasi" }
+        {
+          "id": "17",
+          "slug": "veri-guvenligi",
+          "title": "Kişisel Verilerim Güvende mi?",
+          "summary": "KVKK uyumluluğu, veri şifreleme yöntemleri ve gizlilik politikası.",
+          "content": "Verileriniz 256-bit SSL sertifikası ile şifrelenir. KVKK kapsamında verileriniz üçüncü şahıslarla paylaşılmaz.",
+          "views": "9.123",
+          "likes": 456,
+          "dislikes": 21,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "18",
+          "slug": "cerez-politikasi",
+          "title": "Çerez Politikası Nedir?",
+          "summary": "Web sitemizde kullanılan çerez türleri ve yönetim seçenekleri.",
+          "content": "Zorunlu çerezler, performans çerezleri, hedefleme çerezleri. Tarayıcı ayarlarından çerezleri nasıl yönetebileceğiniz.",
+          "views": "2.345",
+          "likes": 67,
+          "dislikes": 8,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
@@ -107,9 +276,28 @@
       "icon": "smartphone",
       "iconColor": "text-green-600",
       "articles": [
-        { "id": "art-30", "title": "Mobil uygulamayı nereden indirebilirim?", "slug": "mobil-indirme" },
-        { "id": "art-31", "title": "Uygulamada çıkan hatalar için ne yapmalıyım?", "slug": "uygulama-hatasi" },
-        { "id": "art-32", "title": "Mobil uygulama ile web sitesi arasındaki farklar nelerdir?", "slug": "mobil-web-farklari" }
+        {
+          "id": "19",
+          "slug": "mobil-uygulama-indirme",
+          "title": "Mobil Uygulamayı Nereden İndirebilirim?",
+          "summary": "iOS ve Android için mobil uygulama indirme bağlantıları ve kurulum rehberi.",
+          "content": "App Store'dan 'itemAVM' aratarak iOS uygulamasını, Google Play Store'dan Android uygulamasını ücretsiz indirebilirsiniz.",
+          "views": "7.890",
+          "likes": 345,
+          "dislikes": 14,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "20",
+          "slug": "uygulama-ozellikleri",
+          "title": "Mobil Uygulama Özellikleri Nelerdir?",
+          "summary": "Mobil uygulamanın sunduğu özel özellikler ve avantajlar.",
+          "content": "Bildirimler, sesli arama, barkod okutma, favori listeleri, kolay ödeme ve özel mobil kampanyalar.",
+          "views": "5.432",
+          "likes": 210,
+          "dislikes": 7,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
@@ -118,44 +306,88 @@
       "icon": "gift",
       "iconColor": "text-pink-500",
       "articles": [
-        { "id": "art-33", "title": "Hediye çekimi nasıl kullanabilirim?", "slug": "hediye-ceki-kullanimi" },
-        { "id": "art-34", "title": "Kuponlarım nerede görünür?", "slug": "kuponlarim" },
-        { "id": "art-35", "title": "Kupon birleştirme yapabilir miyim?", "slug": "kupon-birlestirme" },
-        { "id": "art-36", "title": "Hediye çeki bakiye sorgulama", "slug": "hediye-ceki-bakiye" }
+        {
+          "id": "21",
+          "slug": "hediye-ceki-kullanimi",
+          "title": "Hediye Çekimi Nasıl Kullanabilirim?",
+          "summary": "Hediye çeki yükleme, kullanma ve bakiye sorgulama rehberi.",
+          "content": "Sepetim sayfasında 'Hediye Çeki Kullan' alanına kodunuzu girin. Hediye çekleri tüm ürünlerde geçerlidir.",
+          "views": "6.789",
+          "likes": 287,
+          "dislikes": 19,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "22",
+          "slug": "kupon-kodlari",
+          "title": "Kupon Kodları Nasıl Kullanılır?",
+          "summary": "İndirim kuponu tanımlama, kampanya kodları ve geçerlilik koşulları.",
+          "content": "Sepetim sayfasında 'Kupon Kodu' alanına kodunuzu girin. Her siparişte yalnızca bir kupon kullanılabilir.",
+          "views": "8.901",
+          "likes": 423,
+          "dislikes": 26,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
-      "id": "satin-alma-rehberi",
-      "title": "Satın Alma Rehberi",
-      "icon": "shopping-cart",
-      "iconColor": "text-cyan-500",
-      "articles": [
-        { "id": "art-37", "title": "Alışveriş nasıl yapılır?", "slug": "alisveris-nasil" },
-        { "id": "art-38", "title": "Ürün puanları ve yorumları güvenilir mi?", "slug": "urun-yorumlari" },
-        { "id": "art-39", "title": "Fiyat değişikliklerinden nasıl haberdar olabilirim?", "slug": "fiyat-takibi" },
-        { "id": "art-40", "title": "Favori listeme nasıl ürün eklerim?", "slug": "favori-liste" }
-      ]
-    },
-    {
-      "id": "kampanyalar",
-      "title": "Kampanyalar",
+      "id": "kampanyalar-firsatlar",
+      "title": "Kampanyalar ve Fırsatlar",
       "icon": "percent",
       "iconColor": "text-rose-500",
       "articles": [
-        { "id": "art-41", "title": "Aktif kampanyalar nelerdir?", "slug": "aktif-kampanyalar" },
-        { "id": "art-42", "title": "Kampanyalardan nasıl yararlanırım?", "slug": "kampanyalardan-yararlanma" },
-        { "id": "art-43", "title": "Kampanya ve indirim kodları", "slug": "indirim-kodlari" }
+        {
+          "id": "23",
+          "slug": "aktif-kampanyalar",
+          "title": "Aktif Kampanyalar Nelerdir?",
+          "summary": "Güncel kampanyalar, indirimler ve özel fırsatlar hakkında bilgi.",
+          "content": "Ayın fırsatları, sezonluk indirimler, özel gün kampanyaları ve flaş indirimler. Tüm kampanyaları 'Kampanyalar' sayfasından takip edebilirsiniz.",
+          "views": "12.345",
+          "likes": 678,
+          "dislikes": 34,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "24",
+          "slug": "firsat-urunleri",
+          "title": "Fırsat Ürünlerine Nasıl Ulaşırım?",
+          "summary": "Günün fırsatları, limitli stok ürünler ve kaçırılmayacak indirimler.",
+          "content": "Anasayfa 'Fırsat Ürünleri' bölümü, bildirimler ve e-posta bülteni ile fırsat ürünlerinden haberdar olabilirsiniz.",
+          "views": "9.876",
+          "likes": 456,
+          "dislikes": 23,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     },
     {
-      "id": "is-birlikleri",
-      "title": "İş Birlikleri",
-      "icon": "handshake",
-      "iconColor": "text-indigo-400",
+      "id": "satici-islemleri",
+      "title": "Satıcı İşlemleri",
+      "icon": "store",
+      "iconColor": "text-amber-600",
       "articles": [
-        { "id": "art-44", "title": "Satıcı olmak istiyorum", "slug": "satici-olmak" },
-        { "id": "art-45", "title": "İş birliği başvurusu nasıl yapılır?", "slug": "is-birligi-basvurusu" },
-        { "id": "art-46", "title": "Affiliate program nedir?", "slug": "affiliate-program" }
+        {
+          "id": "25",
+          "slug": "satici-basvurusu",
+          "title": "Satıcı Olmak İstiyorum",
+          "summary": "Satıcı başvuru süreci, gerekli belgeler ve şartlar hakkında bilgi.",
+          "content": "Satıcı başvuru formu, vergi levhası, imza sirküsü ve diğer gerekli belgeler. Başvurular 3 iş günü içinde değerlendirilir.",
+          "views": "15.678",
+          "likes": 789,
+          "dislikes": 45,
+          "iconSrc": "/images/icon.png"
+        },
+        {
+          "id": "26",
+          "slug": "satici-paneli",
+          "title": "Satıcı Paneli Nasıl Kullanılır?",
+          "summary": "Satıcı paneli özellikleri, ürün yönetimi ve sipariş takibi.",
+          "content": "Ürün ekleme, stok yönetimi, sipariş onaylama, kargo takibi, kazanç raporları ve müşteri mesajları yönetimi.",
+          "views": "11.234",
+          "likes": 543,
+          "dislikes": 31,
+          "iconSrc": "/images/icon.png"
+        }
       ]
     }
   ]
