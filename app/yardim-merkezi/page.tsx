@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import Sidebar from "@/components/layout/Sidebar";
 import MainContent from "@/components/home/MainContent";
 import ArticleDetail from "@/components/detail/ArticleDetail";
+import MobileCategoryButton from "@/components/ui/MobileCategoryButton";
 import data from "@/data/helpCenter.json";
 import { Category, Article } from "@/types";
 
@@ -12,6 +13,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeSlug, setActiveSlug] = useState<string>("");
   const [isLoading, setIsLoading] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleSearchChange = (val: string) => {
     setIsLoading(true);
@@ -69,17 +71,24 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-bg-outer py-13.25 px-4">
-      <div className="max-w-373.5 mx-auto w-full bg-bg-inner rounded-lg border border-border-dark shadow-2xl overflow-hidden">
+    <main className="min-h-screen bg-bg-outer py-4.75 lg:py-13.25 px-4">
+      <div className="max-w-373.5 mx-auto w-full lg:bg-bg-inner rounded-lg lg:border lg:border-border-dark lg:shadow-2xl overflow-hidden">
         <Header />
-
-        <div className="flex min-h-200 p-5">
+       
+        <div className="flex flex-col lg:flex-row min-h-200 lg:p-5">
           <Sidebar 
             categories={filteredData as Category[]} 
             activeSlug={activeSlug}
             searchQuery={searchQuery}
             onSearchChange={handleSearchChange}
             onArticleClick={navigateToArticle}
+            isMobileOpen={isModalOpen}
+            onMobileClose={() => setIsModalOpen(false)}
+          />
+
+          <MobileCategoryButton 
+            onClick={() => setIsModalOpen(true)} 
+            isOpen={isModalOpen}
           />
 
           <div className="flex-1 contents" key={activeSlug || 'home'}>

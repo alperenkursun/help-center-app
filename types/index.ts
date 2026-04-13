@@ -8,6 +8,7 @@ export interface Article {
   likes: number;
   dislikes: number;
   iconSrc: string;
+  detailImage?: string;
 }
 
 export interface Category {
